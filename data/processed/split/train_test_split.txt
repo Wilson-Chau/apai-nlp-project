@@ -1,0 +1,4 @@
+Tran and Test data obtain by splitting best answer data with the following code
+
+train, test = train_test_split(df_text_genre, test_size=0.2, random_state=42, shuffle=True)
+
