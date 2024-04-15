@@ -1,3 +1,8 @@
 .DS_Store
 data/.DS_Store
 results
+
+GUI/Flask/llama-2-7b-chat.Q3_K_S.gguf
+GUI/Flask/.venv/*
+GUI/Flask/__pycache__/*
+GUI/Flask/.env
