@@ -1,0 +1,9 @@
+llama-index-embeddings-huggingface
+llama-index-llms-llama-cpp
+llama-cpp-python
+llama-index-vector-stores-elasticsearch
+llama-index
+flask
+flask-cors
+python-dotenv
+
