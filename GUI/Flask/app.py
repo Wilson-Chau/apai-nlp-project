@@ -11,6 +11,8 @@ from typing import Any, List
 from llama_index.core.vector_stores import VectorStoreQuery
 from llama_index.core.schema import NodeWithScore
 from typing import Optional
+from csv import writer
+from datetime import datetime
 
 import torch
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
@@ -42,6 +44,15 @@ def hello_world():
 def get_llm_response():
     try:
         data = request.get_json().get("message")
+        now = datetime.now()
+        dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
+
+        List = [dt_string, data]
+
+        with open('messages.csv', 'a') as f_object:
+            writer_object = writer(f_object)
+            writer_object.writerow(List)
+            f_object.close()
 
         model_path = "llama-2-7b-chat.Q3_K_S.gguf"
 
