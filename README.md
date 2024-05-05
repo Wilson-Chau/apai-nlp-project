@@ -4,8 +4,6 @@ This repository is for APAI4011 project. You can find our finding while creating
 
 ## Project Structure
 
-## File tree
-
 ```
 📦apai-nlp-project
  ┣ 📂GUI
