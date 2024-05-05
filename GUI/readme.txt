@@ -8,4 +8,6 @@ docker run -p 9200:9200 \
   -e "xpack.license.self_generated.type=trial" \
   docker.elastic.co/elasticsearch/elasticsearch:8.9.0
 
+To ingest data into the database, refer to our notebook/Llama2-7B-RAG.ipynb file
+
 
