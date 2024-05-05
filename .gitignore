@@ -6,3 +6,4 @@ GUI/Flask/llama-2-7b-chat.Q3_K_S.gguf
 GUI/Flask/.venv/*
 GUI/Flask/__pycache__/*
 GUI/Flask/.env
+/GUI/Flask/mental_classification

@@ -6,4 +6,4 @@ llama-index
 flask
 flask-cors
 python-dotenv
-
+accelerate
