@@ -1,6 +1,6 @@
-# APAI4011 Project - Group 3
+# Enhancing Mental Health Diagnostics Through NLP: Developing a Chatbot for Preliminary Psychological Assessment
 
-This repository is for APAI4011 project. You can find our finding while creating a mental health chatbot inside this repository.
+This is the repository for APAI4011 Group 3. Please scroll down for instructions on how to run our project.
 
 ## Project Structure
 
